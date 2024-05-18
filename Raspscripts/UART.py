@@ -6,7 +6,7 @@ ser.reset_input_buffer()
 
 while(True):
 	try:
-	#----------RECIEVE DATA----------
+	#----------RECIEVE DATA---------
 		if ser.in_waiting>0:
 			recieve=ser.readline().decode('utf-8').rstrip()
 
